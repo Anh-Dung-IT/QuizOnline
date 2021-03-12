@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/QuizOnline" >
+    <Resource name="DBA" 
+                  type="javax.sql.DataSource" 
+                  auth="Container" 
+                  driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+                  username="sa" 
+                  password="123456" 
+                  url="jdbc:sqlserver://localhost:1433; databaseName=QuizOnline" />
+</Context>
